@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Serena Franceri - Atleta e performer di tessuti aerei. Esplora il mio portfolio digitale e diario sportivo.">
+    <title>Serena Franceri | Tessuti Aerei</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Serena Franceri</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#diario">Diario</a></li>
+                <li><a href="#contatti">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-content fade-in">
+                <h1>L'Arte di Volare</h1>
+                <p>Forza, eleganza e antigravità. Esplora il mondo dei tessuti aerei con Serena.</p>
+                <a href="#gallery" class="cta-button">Scopri il mio volo</a>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-circle float-1"></div>
+                <div class="floating-circle float-2"></div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="gallery scroll-animate">
+            <div class="container">
+                <h2>Gallery Performance</h2>
+                <div class="grid">
+                    <div class="grid-item"><img src="https://images.unsplash.com/photo-1549646876-0f8aa61dcec7?auto=format&fit=crop&q=80&w=800" alt="Performance Tessuti 1"></div>
+                    <div class="grid-item"><img src="https://images.unsplash.com/photo-1603598506509-3def9a1291b8?auto=format&fit=crop&q=80&w=800" alt="Performance Tessuti 2"></div>
+                    <div class="grid-item tall"><img src="https://images.unsplash.com/photo-1517594002636-f3ccb05ab64b?auto=format&fit=crop&q=80&w=800" alt="Performance Tessuti 3"></div>
+                    <div class="grid-item"><img src="https://images.unsplash.com/photo-1574042858712-ff5f8ff084b2?auto=format&fit=crop&q=80&w=800" alt="Performance Tessuti 4"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Diario Section -->
+        <section id="diario" class="diario scroll-animate">
+            <div class="container">
+                <h2>Diario di Bordo</h2>
+                <div class="blog-grid">
+                    <article class="blog-card">
+                        <div class="card-date">24 Mar 2026</div>
+                        <h3>Nuova Figura: La Caduta dell'Angelo</h3>
+                        <p>Appunti tecnici sulla transizione fluida e l'importanza del core durante l'apertura in caduta.</p>
+                        <a href="#" class="read-more">Leggi gli appunti &rarr;</a>
+                    </article>
+                    <article class="blog-card">
+                        <div class="card-date">10 Feb 2026</div>
+                        <h3>Coreografia "Antigravità"</h3>
+                        <p>Ricerca della sospensione perfetta. Come gestire il respiro nei momenti di immobilità aerea.</p>
+                        <a href="#" class="read-more">Leggi gli appunti &rarr;</a>
+                    </article>
+                    <article class="blog-card">
+                        <div class="card-date">15 Gen 2026</div>
+                        <h3>Riscaldamento a Terra</h3>
+                        <p>La flessibilità e l'attivazione delle spalle prima di salire sul tessuto.</p>
+                        <a href="#" class="read-more">Leggi gli appunti &rarr;</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contatti Section -->
+        <section id="contatti" class="contatti scroll-animate">
+            <div class="container">
+                <h2>Contatti</h2>
+                <div class="contact-wrapper">
+                    <p>Pronta a collaborare o a condividere esperienze sul mondo dei tessuti aerei? Scrivimi.</p>
+                    <form class="contact-form" onsubmit="event.preventDefault(); alert('Messaggio inviato!')">
+                        <div class="form-group">
+                            <input type="text" id="name" required placeholder="Il tuo nome">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" required placeholder="La tua email">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="4" required placeholder="Scrivi il tuo messaggio..."></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">Invia Messaggio</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Serena Franceri. Tutti i diritti riservati.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
